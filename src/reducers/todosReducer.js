@@ -1,4 +1,10 @@
-const INITIAL_STATE = {}
+const INITIAL_STATE = {
+    items: [
+        'learnnn',
+        'redux',
+        'state management'
+      ]
+}
 
 export default function(state = INITIAL_STATE, action) {
    switch (action.type) {
